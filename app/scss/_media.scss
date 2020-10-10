@@ -10,6 +10,9 @@
     }
 }
 @media (max-width: 650px) {
+    body {
+        background-image: url(../images/bg-mobile.jpg);
+    }
     .header__inner{
         text-align: center;
     }

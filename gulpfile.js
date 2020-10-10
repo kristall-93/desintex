@@ -30,7 +30,7 @@ gulp.task('style', function(){
 });
 
 gulp.task('script', function(){
-    return gulp.src([,
+    return gulp.src([
         'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
     ])
     .pipe(concat('libs.min.js'))

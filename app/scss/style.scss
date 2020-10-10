@@ -5,7 +5,25 @@
 // start header
 
 .header__inner {
-    padding: 8px 0;
+    // padding: 8px 0;  
+    height: 80px;  
+}
+.logo{
+    position: relative;
+    height: 64px;
+    width: 200px;
+}
+.logo-img{
+    position: absolute;
+    top: 8px;
+    left: 0;
+    z-index: 1;
+}
+.logo-bg{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
 }
 
 // end header
