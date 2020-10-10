@@ -2,14 +2,186 @@
 @import "_global";
 @import "_fonts";
 
-// start homepage
 // start header
 
-// .header {
-//     padding-bottom: 190px;
-// }
+.header__inner {
+    padding: 8px 0;
+}
 
-//end 
+// end header
+// start promo content
 
+.promo__inner {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.promo__info {
+    position: relative;
+    max-width: 644px;
+    width: 100%;
+    margin-right: 40px;
+}
+.promo__title {
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 68px;
+    text-transform: uppercase;
+    color: #118976;
+    text-shadow: 2px 2px 0px #ffffff;
+    margin-bottom: 62px;
+}
+.promo__item {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+    img {
+        margin-right: 21px;
+    }
+    span {
+        max-width: 277px;
+        width: 100%;
+    }
+    & + .promo__item {
+        margin-top: 49px;
+    }
+}
+.promo__img {
+    position: absolute;
+    right: -9px;
+    bottom: -23px;
+}
+.promo__form {
+    max-width: 368px;
+    width: 100%;
+    margin-bottom: 5px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+    text-align: center;
+    padding: 24px 56px;
+    &-title {
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 32px;
+        // text-align: center;
+        letter-spacing: -0.01em;
+        color: #333333;
+        margin-bottom: 12px;
+    }
+    &-text {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 110%;
+        letter-spacing: -0.01em;
+        color: #ff2c2c;
+        margin-bottom: 4px;
+    }
+    &-price {
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 42px;
+        color: #ff2c2c;
+        margin-bottom: 88px;
+    }
+}
+.rouble {
+    font-family: "ALS Rubl", sans-serif;
+    margin-left: -4px;
+}
+.promo__select {
+    width: 100%;
+    margin-bottom: 12px;
+    text-align: left;
+    .jq-selectbox__select {
+        background: transparent;
+        border: 1px solid #089c84;
+        border-radius: 2px;
+        height: 42px;
+        padding: 13px 30px 13px 19px;
+    }
+    .jq-selectbox__select-text {
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 116.75%;
+        color: #333333;
+        width: 100% !important;
+    }
+    .jq-selectbox__trigger {
+        border-left: none;
+    }
+    .jq-selectbox__trigger-arrow {
+        border: none;
+        width: 13px;
+        height: 8px;
+        top: 17px;
+        right: 16px;
+        background-image: url(../images/select-arrow.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .jq-selectbox__dropdown {
+        top: 38px;
+        li {
+            padding: 13px 19px;
+            &.selected {
+                background-color: #118976;
+            }
+            &:hover {
+                background-color: #11897647;
+            }
+        }
+    }
+}
+.promo__input {
+    width: 100%;
+    height: 42px;
+    border: 1px solid #089c84;
+    border-radius: 2px;
+    padding: 13px 19px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 116.75%;
+    color: #333333;
+    margin-bottom: 12px;
+    &::placeholder {
+        color: #333333;
+    }
+}
+.promo__btn {
+    margin-top: 9px;
+    margin-bottom: 16px;
+    width: 100%;
+    height: 56px;
+    background: #ff272b;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: #ffffff;
+    transition: all .3s;
+    &:hover{
+        background: #d71d20;
+    }
+    &:active{
+        background: #ff272b;
+
+    }
+}
+.promo__lable {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+    color: #828282;
+}
+
+// end promo content
 
 @import "_media";

@@ -1,61 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">    
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- <meta name="description" content="My website"> -->
-    <title>Document</title>
-    <!-- <link rel="shortcut icon" href="images/...png" type="image/png"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet"> -->
+    <title>ДЕЗИНТЕКС</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
-    <div class="wrapper">
-        
-        <div class="content">
 
-            <header class="header">
-                <div class="container">
-                    <div class="header__inner">
-                        <img class="logo" src="" alt="#">
-                        <nav class="menu">
-                            <ul class="menu__list">
-                                <li><a class="menu__item" href="#"></a></li>
-                                <li><a class="menu__item" href="#"></a></li>
-                                <li><a class="menu__item" href="#"></a></li>
-                            </ul>
-                        </nav>
-                        <div class="menu__btn"></div>
-                    </div>
-                </div>
-            </header>
-
-            <section class="section">
-                <div class="container">
-                    <div class="section__inner">
-
-                    </div>
-                </div>
-            </section>
-
-
-        </div>
-
-        <footer class="footer">
-            <div class="container">
-                <div class="footer__inner">
-
-                </div>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <img src="images/logo.svg" alt="#">
+                </a>
             </div>
-        </footer>
-        
-    </div>  
+        </div>
+    </header>
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo__inner">
+                <div class="promo__info">
+                    <h1 class="promo__title">
+                        100% защита дома 
+                        от вирусов 
+                        <br>
+                        и микробов
+                    </h1>
+                    <div class="promo__list">
+                        <div class="promo__item">
+                            <img src="images/check.svg" alt="#">
+                            <span>Убивает все известные вирусы и микробы</span>
+                        </div>
+                        <div class="promo__item">
+                            <img src="images/check.svg" alt="#">
+                            <span>Защищает поверхности от микробов 48 часов</span>
+                        </div>
+                        <div class="promo__item">
+                            <img src="images/check.svg" alt="#">
+                            <span>Подходит для любых поверхностей</span>
+                        </div>
+                    </div>
+                    <div class="promo__img">
+                        <img src="images/bottle.svg" alt="#">
+                    </div>
+                </div>
+                <form class="promo__form">
+                    <div class="promo__form-title">
+                        Специальное предложение!
+                    </div>
+                    <div class="promo__form-text">
+                        Специальная цена
+                    </div>
+                    <div class="promo__form-price">
+                        <span class="price">149</span>
+                        <span class="rouble">c*</span>
+                    </div>
+                    <select class="promo__select">
+                        <option>Россия</option>
+                        <option>Россия</option>
+                        <option>Россия</option>
+                    </select>
+                    <input class="promo__input" type="text" placeholder="Имя" required>
+                    <input class="promo__input" type="text" placeholder="Телефон" required>
+                    <button class="promo__btn" type="submit">Заказать</button>
+                    <span class="promo__lable">* при заказе набора</span>
+                </form>
+
+            </div>
+        </div>
+    </section>
 
 
-    
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -49,30 +49,20 @@ button {
 }
 
 body {
-    // font-family: "Gilroy", sans-serif;
-    // font-size: 16px;
-    // line-height: 26px;
-    // font-weight: normal;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;    
+    font-weight: 700;
     min-width: 320px;
+    min-height: 100vh;
     overflow-x: hidden;
 }
 
 .container {
-    // max-width: 1000px;
+    max-width: 1200px;
     padding: 0 30px;
     margin: 0 auto;
-}
-
-.wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-}
-
-.content {
-    flex: 1 0 auto;
-}
-
-.footer {
-    flex: 0 0 auto;
 }
